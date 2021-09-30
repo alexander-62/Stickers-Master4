@@ -1,0 +1,4 @@
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Core\obj\Debug\netcoreapp2.0\Stickers.Core.csprojAssemblyReference.cache
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Core\obj\Debug\netcoreapp2.0\Stickers.Core.csproj.CoreCompileInputs.cache
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Core\obj\Debug\netcoreapp2.0\Stickers.Core.AssemblyInfoInputs.cache
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Core\obj\Debug\netcoreapp2.0\Stickers.Core.AssemblyInfo.cs

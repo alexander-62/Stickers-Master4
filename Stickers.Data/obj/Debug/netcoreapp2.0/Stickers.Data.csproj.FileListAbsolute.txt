@@ -1,0 +1,14 @@
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\bin\Debug\netcoreapp2.0\Stickers.Data.deps.json
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\bin\Debug\netcoreapp2.0\Stickers.Data.runtimeconfig.json
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\bin\Debug\netcoreapp2.0\Stickers.Data.runtimeconfig.dev.json
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\bin\Debug\netcoreapp2.0\Stickers.Data.dll
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\bin\Debug\netcoreapp2.0\Stickers.Data.pdb
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\bin\Debug\netcoreapp2.0\Stickers.Data.Model.dll
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\bin\Debug\netcoreapp2.0\Stickers.Data.Model.pdb
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\obj\Debug\netcoreapp2.0\Stickers.Data.csprojAssemblyReference.cache
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\obj\Debug\netcoreapp2.0\Stickers.Data.csproj.CoreCompileInputs.cache
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\obj\Debug\netcoreapp2.0\Stickers.Data.AssemblyInfoInputs.cache
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\obj\Debug\netcoreapp2.0\Stickers.Data.AssemblyInfo.cs
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\obj\Debug\netcoreapp2.0\Stickers.Data.csproj.CopyComplete
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\obj\Debug\netcoreapp2.0\Stickers.Data.dll
+C:\Users\Luka\Desktop\Stickers-master-main\Stickers\Stickers.Data\obj\Debug\netcoreapp2.0\Stickers.Data.pdb

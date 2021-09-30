@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="ArchiveForms\ArchiveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Client\AddClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CostForms\CostForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DeliveryForms\AddDeliveryInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForms\MainForm.Clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForms\MainForm.Costs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForms\MainForm.Delivery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForms\MainForm.Layouts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForms\MainForm.MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForms\MainForm.Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForms\MainForm.Production.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Materials\FilmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Materials\MaterialsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Materials\MaterialsForm.Films.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Materials\MaterialsForm.Rolls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Materials\RollExpendForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Materials\RollForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="OrderForms\OrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="OrderForms\OrderItemContourForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="OrderForms\OrderItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProductionForms\CheckWorkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserForms\EditUserRoleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserForms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserForms\UsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="WorkStatistics\WorkStatisticsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="WorkStatistics\WorkStatisticsForm.Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

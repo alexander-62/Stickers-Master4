@@ -1,0 +1,5 @@
+C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers\bin\Release\netcoreapp3.1\publish\Stickers.WinForms.pdb
+C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers\bin\Release\netcoreapp3.1\publish\Stickers.Core.pdb
+C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers\bin\Release\netcoreapp3.1\publish\Stickers.Data.pdb
+C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers\bin\Release\netcoreapp3.1\publish\Stickers.Data.Model.pdb
+C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers\bin\Release\netcoreapp3.1\publish\Stickers.WinForms.exe
