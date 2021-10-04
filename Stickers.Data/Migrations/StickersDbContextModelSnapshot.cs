@@ -333,6 +333,9 @@ namespace Stickers.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<decimal?>("CostMaterial")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
@@ -341,6 +344,9 @@ namespace Stickers.Data.Migrations
 
                     b.Property<int?>("OrderItemId")
                         .HasColumnType("int");
+
+                    b.Property<decimal?>("PaintCost")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("PaperCount")
                         .HasColumnType("int");
@@ -354,6 +360,9 @@ namespace Stickers.Data.Migrations
 
                     b.Property<int?>("RollId")
                         .HasColumnType("int");
+
+                    b.Property<decimal?>("SpentMaterial")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int?>("UserId")
                         .HasColumnType("int");

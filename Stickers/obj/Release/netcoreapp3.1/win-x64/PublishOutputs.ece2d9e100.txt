@@ -1,0 +1,5 @@
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers\bin\Release\netcoreapp3.1\publish\Stickers.WinForms.pdb
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers\bin\Release\netcoreapp3.1\publish\Stickers.Core.pdb
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers\bin\Release\netcoreapp3.1\publish\Stickers.Data.pdb
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers\bin\Release\netcoreapp3.1\publish\Stickers.Data.Model.pdb
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers\bin\Release\netcoreapp3.1\publish\Stickers.WinForms.exe

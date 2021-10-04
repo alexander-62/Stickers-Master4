@@ -47,5 +47,10 @@ namespace Stickers.WinForms.WorkStatistics
             {
             }
         }
+
+        private void WorkStatisticsForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

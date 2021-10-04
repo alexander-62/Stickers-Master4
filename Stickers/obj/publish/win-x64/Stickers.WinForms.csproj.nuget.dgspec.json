@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers\\Stickers.WinForms.csproj": {}
+    "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers\\Stickers.WinForms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Core\\Stickers.Core.csproj": {
+    "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Core\\Stickers.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Core\\Stickers.Core.csproj",
+        "projectUniqueName": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Core\\Stickers.Core.csproj",
         "projectName": "Stickers.Core",
-        "projectPath": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Core\\Stickers.Core.csproj",
-        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Core\\obj\\",
+        "projectPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Core\\Stickers.Core.csproj",
+        "packagesPath": "C:\\Users\\PC1\\.nuget\\packages\\",
+        "outputPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PC1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,8 +34,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data\\Stickers.Data.csproj": {
-                "projectPath": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data\\Stickers.Data.csproj"
+              "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data\\Stickers.Data.csproj": {
+                "projectPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data\\Stickers.Data.csproj"
               }
             }
           }
@@ -61,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -70,21 +73,24 @@
         }
       }
     },
-    "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data.Model\\Stickers.Data.Model.csproj": {
+    "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data.Model\\Stickers.Data.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data.Model\\Stickers.Data.Model.csproj",
+        "projectUniqueName": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data.Model\\Stickers.Data.Model.csproj",
         "projectName": "Stickers.Data.Model",
-        "projectPath": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data.Model\\Stickers.Data.Model.csproj",
-        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data.Model\\obj\\",
+        "projectPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data.Model\\Stickers.Data.Model.csproj",
+        "packagesPath": "C:\\Users\\PC1\\.nuget\\packages\\",
+        "outputPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PC1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -123,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -132,21 +138,24 @@
         }
       }
     },
-    "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data\\Stickers.Data.csproj": {
+    "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data\\Stickers.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data\\Stickers.Data.csproj",
+        "projectUniqueName": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data\\Stickers.Data.csproj",
         "projectName": "Stickers.Data",
-        "projectPath": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data\\Stickers.Data.csproj",
-        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data\\obj\\",
+        "projectPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data\\Stickers.Data.csproj",
+        "packagesPath": "C:\\Users\\PC1\\.nuget\\packages\\",
+        "outputPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PC1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -159,8 +168,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data.Model\\Stickers.Data.Model.csproj": {
-                "projectPath": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data.Model\\Stickers.Data.Model.csproj"
+              "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data.Model\\Stickers.Data.Model.csproj": {
+                "projectPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data.Model\\Stickers.Data.Model.csproj"
               }
             }
           }
@@ -209,7 +218,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -218,21 +227,24 @@
         }
       }
     },
-    "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers\\Stickers.WinForms.csproj": {
+    "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers\\Stickers.WinForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers\\Stickers.WinForms.csproj",
+        "projectUniqueName": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers\\Stickers.WinForms.csproj",
         "projectName": "Stickers.WinForms",
-        "projectPath": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers\\Stickers.WinForms.csproj",
-        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers\\obj\\publish\\win-x64\\",
+        "projectPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers\\Stickers.WinForms.csproj",
+        "packagesPath": "C:\\Users\\PC1\\.nuget\\packages\\",
+        "outputPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers\\obj\\publish\\win-x64\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PC1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -245,11 +257,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Core\\Stickers.Core.csproj": {
-                "projectPath": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Core\\Stickers.Core.csproj"
+              "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Core\\Stickers.Core.csproj": {
+                "projectPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Core\\Stickers.Core.csproj"
               },
-              "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data\\Stickers.Data.csproj": {
-                "projectPath": "C:\\Users\\Home\\Desktop\\V3\\Stickers-master-main\\Stickers\\Stickers.Data\\Stickers.Data.csproj"
+              "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data\\Stickers.Data.csproj": {
+                "projectPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data\\Stickers.Data.csproj"
               }
             }
           }
@@ -281,7 +293,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

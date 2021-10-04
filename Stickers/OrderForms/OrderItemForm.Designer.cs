@@ -84,37 +84,35 @@
             // lblDescription
             // 
             this.lblDescription.AutoSize = true;
-            this.lblDescription.Location = new System.Drawing.Point(14, 12);
+            this.lblDescription.Location = new System.Drawing.Point(12, 9);
             this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(132, 20);
+            this.lblDescription.Size = new System.Drawing.Size(103, 15);
             this.lblDescription.TabIndex = 0;
             this.lblDescription.Text = "Название макета:";
             // 
             // txtDescription
             // 
-            this.txtDescription.Location = new System.Drawing.Point(234, 8);
-            this.txtDescription.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtDescription.Location = new System.Drawing.Point(205, 6);
             this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(305, 27);
+            this.txtDescription.Size = new System.Drawing.Size(267, 23);
             this.txtDescription.TabIndex = 1;
             this.txtDescription.Validating += new System.ComponentModel.CancelEventHandler(this.TxtDescription_Validating);
             // 
             // lblCommentForDesigner
             // 
             this.lblCommentForDesigner.AutoSize = true;
-            this.lblCommentForDesigner.Location = new System.Drawing.Point(14, 51);
+            this.lblCommentForDesigner.Location = new System.Drawing.Point(12, 38);
             this.lblCommentForDesigner.Name = "lblCommentForDesigner";
-            this.lblCommentForDesigner.Size = new System.Drawing.Size(217, 20);
+            this.lblCommentForDesigner.Size = new System.Drawing.Size(169, 15);
             this.lblCommentForDesigner.TabIndex = 2;
             this.lblCommentForDesigner.Text = "Комментарий для дизайнера:";
             // 
             // txtCommentForDesigner
             // 
             this.txtCommentForDesigner.CausesValidation = false;
-            this.txtCommentForDesigner.Location = new System.Drawing.Point(234, 47);
-            this.txtCommentForDesigner.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtCommentForDesigner.Location = new System.Drawing.Point(205, 35);
             this.txtCommentForDesigner.Name = "txtCommentForDesigner";
-            this.txtCommentForDesigner.Size = new System.Drawing.Size(305, 27);
+            this.txtCommentForDesigner.Size = new System.Drawing.Size(267, 23);
             this.txtCommentForDesigner.TabIndex = 2;
             // 
             // errorCuttingLength
@@ -126,28 +124,27 @@
             // 
             this.cuttingTypeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cuttingTypeComboBox.FormattingEnabled = true;
-            this.cuttingTypeComboBox.Location = new System.Drawing.Point(234, 125);
-            this.cuttingTypeComboBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cuttingTypeComboBox.Location = new System.Drawing.Point(205, 94);
             this.cuttingTypeComboBox.Name = "cuttingTypeComboBox";
-            this.cuttingTypeComboBox.Size = new System.Drawing.Size(305, 28);
+            this.cuttingTypeComboBox.Size = new System.Drawing.Size(267, 23);
             this.cuttingTypeComboBox.TabIndex = 4;
             this.cuttingTypeComboBox.Validating += new System.ComponentModel.CancelEventHandler(this.CuttingTypeComboBox_Validating);
             // 
             // lblCuttingType
             // 
             this.lblCuttingType.AutoSize = true;
-            this.lblCuttingType.Location = new System.Drawing.Point(14, 129);
+            this.lblCuttingType.Location = new System.Drawing.Point(12, 97);
             this.lblCuttingType.Name = "lblCuttingType";
-            this.lblCuttingType.Size = new System.Drawing.Size(82, 20);
+            this.lblCuttingType.Size = new System.Drawing.Size(65, 15);
             this.lblCuttingType.TabIndex = 7;
             this.lblCuttingType.Text = "Тип резки:";
             // 
             // lblFilm
             // 
             this.lblFilm.AutoSize = true;
-            this.lblFilm.Location = new System.Drawing.Point(14, 168);
+            this.lblFilm.Location = new System.Drawing.Point(12, 126);
             this.lblFilm.Name = "lblFilm";
-            this.lblFilm.Size = new System.Drawing.Size(92, 20);
+            this.lblFilm.Size = new System.Drawing.Size(74, 15);
             this.lblFilm.TabIndex = 8;
             this.lblFilm.Text = "Тип пленки:";
             // 
@@ -155,19 +152,18 @@
             // 
             this.filmComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.filmComboBox.FormattingEnabled = true;
-            this.filmComboBox.Location = new System.Drawing.Point(234, 164);
-            this.filmComboBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.filmComboBox.Location = new System.Drawing.Point(205, 123);
             this.filmComboBox.Name = "filmComboBox";
-            this.filmComboBox.Size = new System.Drawing.Size(305, 28);
+            this.filmComboBox.Size = new System.Drawing.Size(267, 23);
             this.filmComboBox.TabIndex = 5;
             this.filmComboBox.Validating += new System.ComponentModel.CancelEventHandler(this.FilmComboBox_Validating);
             // 
             // lblLamination
             // 
             this.lblLamination.AutoSize = true;
-            this.lblLamination.Location = new System.Drawing.Point(14, 207);
+            this.lblLamination.Location = new System.Drawing.Point(12, 155);
             this.lblLamination.Name = "lblLamination";
-            this.lblLamination.Size = new System.Drawing.Size(93, 20);
+            this.lblLamination.Size = new System.Drawing.Size(73, 15);
             this.lblLamination.TabIndex = 10;
             this.lblLamination.Text = "Ламинация:";
             // 
@@ -175,28 +171,26 @@
             // 
             this.laminationComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.laminationComboBox.FormattingEnabled = true;
-            this.laminationComboBox.Location = new System.Drawing.Point(234, 203);
-            this.laminationComboBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.laminationComboBox.Location = new System.Drawing.Point(205, 152);
             this.laminationComboBox.Name = "laminationComboBox";
-            this.laminationComboBox.Size = new System.Drawing.Size(305, 28);
+            this.laminationComboBox.Size = new System.Drawing.Size(267, 23);
             this.laminationComboBox.TabIndex = 6;
             this.laminationComboBox.Validating += new System.ComponentModel.CancelEventHandler(this.LaminationComboBox_Validating);
             // 
             // lblPaperCount
             // 
             this.lblPaperCount.AutoSize = true;
-            this.lblPaperCount.Location = new System.Drawing.Point(14, 247);
+            this.lblPaperCount.Location = new System.Drawing.Point(12, 185);
             this.lblPaperCount.Name = "lblPaperCount";
-            this.lblPaperCount.Size = new System.Drawing.Size(144, 20);
+            this.lblPaperCount.Size = new System.Drawing.Size(116, 15);
             this.lblPaperCount.TabIndex = 14;
             this.lblPaperCount.Text = "Количество листов:";
             // 
             // txtPaperCount
             // 
-            this.txtPaperCount.Location = new System.Drawing.Point(234, 243);
-            this.txtPaperCount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPaperCount.Location = new System.Drawing.Point(205, 182);
             this.txtPaperCount.Name = "txtPaperCount";
-            this.txtPaperCount.Size = new System.Drawing.Size(305, 27);
+            this.txtPaperCount.Size = new System.Drawing.Size(267, 23);
             this.txtPaperCount.TabIndex = 7;
             this.txtPaperCount.Validating += new System.ComponentModel.CancelEventHandler(this.TxtPaperCount_Validating);
             // 
@@ -208,9 +202,9 @@
             // lblPaperType
             // 
             this.lblPaperType.AutoSize = true;
-            this.lblPaperType.Location = new System.Drawing.Point(14, 367);
+            this.lblPaperType.Location = new System.Drawing.Point(12, 275);
             this.lblPaperType.Name = "lblPaperType";
-            this.lblPaperType.Size = new System.Drawing.Size(105, 20);
+            this.lblPaperType.Size = new System.Drawing.Size(84, 15);
             this.lblPaperType.TabIndex = 17;
             this.lblPaperType.Text = "Размер листа:";
             // 
@@ -219,47 +213,44 @@
             this.paperTypeComboBox.CausesValidation = false;
             this.paperTypeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.paperTypeComboBox.FormattingEnabled = true;
-            this.paperTypeComboBox.Location = new System.Drawing.Point(234, 363);
-            this.paperTypeComboBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.paperTypeComboBox.Location = new System.Drawing.Point(205, 272);
             this.paperTypeComboBox.Name = "paperTypeComboBox";
-            this.paperTypeComboBox.Size = new System.Drawing.Size(138, 28);
-            this.paperTypeComboBox.TabIndex = 9;
+            this.paperTypeComboBox.Size = new System.Drawing.Size(121, 23);
+            this.paperTypeComboBox.TabIndex = 10;
             this.paperTypeComboBox.SelectedIndexChanged += new System.EventHandler(this.PaperTypeComboBox_SelectedIndexChanged);
             // 
             // lblPaperLength
             // 
             this.lblPaperLength.AutoSize = true;
-            this.lblPaperLength.Location = new System.Drawing.Point(14, 405);
+            this.lblPaperLength.Location = new System.Drawing.Point(12, 304);
             this.lblPaperLength.Name = "lblPaperLength";
-            this.lblPaperLength.Size = new System.Drawing.Size(127, 20);
+            this.lblPaperLength.Size = new System.Drawing.Size(103, 15);
             this.lblPaperLength.TabIndex = 19;
             this.lblPaperLength.Text = "Длина листа, мм:";
             // 
             // txtPaperLength
             // 
-            this.txtPaperLength.Location = new System.Drawing.Point(234, 401);
-            this.txtPaperLength.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPaperLength.Location = new System.Drawing.Point(205, 301);
             this.txtPaperLength.Name = "txtPaperLength";
-            this.txtPaperLength.Size = new System.Drawing.Size(138, 27);
-            this.txtPaperLength.TabIndex = 20;
+            this.txtPaperLength.Size = new System.Drawing.Size(121, 23);
+            this.txtPaperLength.TabIndex = 11;
             this.txtPaperLength.Validating += new System.ComponentModel.CancelEventHandler(this.TxtPaperLength_Validating);
             // 
             // lblPaperWidth
             // 
             this.lblPaperWidth.AutoSize = true;
-            this.lblPaperWidth.Location = new System.Drawing.Point(14, 444);
+            this.lblPaperWidth.Location = new System.Drawing.Point(12, 333);
             this.lblPaperWidth.Name = "lblPaperWidth";
-            this.lblPaperWidth.Size = new System.Drawing.Size(141, 20);
+            this.lblPaperWidth.Size = new System.Drawing.Size(113, 15);
             this.lblPaperWidth.TabIndex = 21;
             this.lblPaperWidth.Text = "Ширина листа, мм:";
             // 
             // txtPaperWidth
             // 
-            this.txtPaperWidth.Location = new System.Drawing.Point(234, 440);
-            this.txtPaperWidth.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPaperWidth.Location = new System.Drawing.Point(205, 330);
             this.txtPaperWidth.Name = "txtPaperWidth";
-            this.txtPaperWidth.Size = new System.Drawing.Size(138, 27);
-            this.txtPaperWidth.TabIndex = 22;
+            this.txtPaperWidth.Size = new System.Drawing.Size(121, 23);
+            this.txtPaperWidth.TabIndex = 12;
             this.txtPaperWidth.Validating += new System.ComponentModel.CancelEventHandler(this.TxtPaperWidth_Validating);
             // 
             // errorPaperLength
@@ -274,11 +265,10 @@
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(345, 570);
-            this.btnOk.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnOk.Location = new System.Drawing.Point(302, 428);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(86, 31);
-            this.btnOk.TabIndex = 11;
+            this.btnOk.Size = new System.Drawing.Size(75, 23);
+            this.btnOk.TabIndex = 15;
             this.btnOk.Text = "ОК";
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.BtnOk_Click);
@@ -287,11 +277,10 @@
             // 
             this.btnCancel.CausesValidation = false;
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(453, 570);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnCancel.Location = new System.Drawing.Point(396, 428);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(86, 31);
-            this.btnCancel.TabIndex = 12;
+            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.TabIndex = 16;
             this.btnCancel.Text = "Отмена";
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
@@ -317,11 +306,10 @@
             // 
             // btnLoadSources
             // 
-            this.btnLoadSources.Location = new System.Drawing.Point(14, 487);
-            this.btnLoadSources.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnLoadSources.Location = new System.Drawing.Point(12, 365);
             this.btnLoadSources.Name = "btnLoadSources";
-            this.btnLoadSources.Size = new System.Drawing.Size(138, 53);
-            this.btnLoadSources.TabIndex = 10;
+            this.btnLoadSources.Size = new System.Drawing.Size(121, 40);
+            this.btnLoadSources.TabIndex = 13;
             this.btnLoadSources.Text = "Загрузить исходники";
             this.btnLoadSources.UseVisualStyleBackColor = true;
             this.btnLoadSources.Click += new System.EventHandler(this.BtnLoadSources_Click);
@@ -330,18 +318,17 @@
             // lblDiscount
             // 
             this.lblDiscount.AutoSize = true;
-            this.lblDiscount.Location = new System.Drawing.Point(14, 285);
+            this.lblDiscount.Location = new System.Drawing.Point(12, 214);
             this.lblDiscount.Name = "lblDiscount";
-            this.lblDiscount.Size = new System.Drawing.Size(60, 20);
+            this.lblDiscount.Size = new System.Drawing.Size(49, 15);
             this.lblDiscount.TabIndex = 23;
             this.lblDiscount.Text = "Скидка:";
             // 
             // txtDiscount
             // 
-            this.txtDiscount.Location = new System.Drawing.Point(234, 281);
-            this.txtDiscount.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtDiscount.Location = new System.Drawing.Point(205, 211);
             this.txtDiscount.Name = "txtDiscount";
-            this.txtDiscount.Size = new System.Drawing.Size(305, 27);
+            this.txtDiscount.Size = new System.Drawing.Size(267, 23);
             this.txtDiscount.TabIndex = 8;
             this.txtDiscount.Validating += new System.ComponentModel.CancelEventHandler(this.TxtDiscount_Validating);
             // 
@@ -353,37 +340,35 @@
             // lblCommentForProduction
             // 
             this.lblCommentForProduction.AutoSize = true;
-            this.lblCommentForProduction.Location = new System.Drawing.Point(14, 89);
+            this.lblCommentForProduction.Location = new System.Drawing.Point(12, 67);
             this.lblCommentForProduction.Name = "lblCommentForProduction";
-            this.lblCommentForProduction.Size = new System.Drawing.Size(239, 20);
+            this.lblCommentForProduction.Size = new System.Drawing.Size(187, 15);
             this.lblCommentForProduction.TabIndex = 24;
             this.lblCommentForProduction.Text = "Комментарий для производства:";
             // 
             // txtCommentForProduction
             // 
             this.txtCommentForProduction.CausesValidation = false;
-            this.txtCommentForProduction.Location = new System.Drawing.Point(234, 85);
-            this.txtCommentForProduction.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtCommentForProduction.Location = new System.Drawing.Point(205, 64);
             this.txtCommentForProduction.Name = "txtCommentForProduction";
-            this.txtCommentForProduction.Size = new System.Drawing.Size(305, 27);
+            this.txtCommentForProduction.Size = new System.Drawing.Size(267, 23);
             this.txtCommentForProduction.TabIndex = 3;
             // 
             // lblManualPricing
             // 
             this.lblManualPricing.AutoSize = true;
-            this.lblManualPricing.Location = new System.Drawing.Point(14, 327);
+            this.lblManualPricing.Location = new System.Drawing.Point(12, 245);
             this.lblManualPricing.Name = "lblManualPricing";
-            this.lblManualPricing.Size = new System.Drawing.Size(101, 20);
+            this.lblManualPricing.Size = new System.Drawing.Size(80, 15);
             this.lblManualPricing.TabIndex = 25;
             this.lblManualPricing.Text = "Цена за лист:";
             // 
             // txtManualPrice
             // 
-            this.txtManualPrice.Location = new System.Drawing.Point(234, 321);
-            this.txtManualPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtManualPrice.Location = new System.Drawing.Point(205, 241);
             this.txtManualPrice.Name = "txtManualPrice";
-            this.txtManualPrice.Size = new System.Drawing.Size(305, 27);
-            this.txtManualPrice.TabIndex = 26;
+            this.txtManualPrice.Size = new System.Drawing.Size(267, 23);
+            this.txtManualPrice.TabIndex = 9;
             this.txtManualPrice.Validating += new System.ComponentModel.CancelEventHandler(this.TxtManualPrice_Validating);
             // 
             // errorManualPrice
@@ -393,10 +378,11 @@
             // 
             // btnLoadContour
             // 
-            this.btnLoadContour.Location = new System.Drawing.Point(234, 487);
+            this.btnLoadContour.Location = new System.Drawing.Point(205, 365);
+            this.btnLoadContour.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLoadContour.Name = "btnLoadContour";
-            this.btnLoadContour.Size = new System.Drawing.Size(138, 53);
-            this.btnLoadContour.TabIndex = 28;
+            this.btnLoadContour.Size = new System.Drawing.Size(121, 40);
+            this.btnLoadContour.TabIndex = 14;
             this.btnLoadContour.Text = "Загрузить контур";
             this.btnLoadContour.UseVisualStyleBackColor = true;
             this.btnLoadContour.Click += new System.EventHandler(this.BtnLoadContour_Click);
@@ -408,10 +394,10 @@
             // 
             // OrderItemForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
-            this.ClientSize = new System.Drawing.Size(587, 611);
+            this.ClientSize = new System.Drawing.Size(514, 458);
             this.Controls.Add(this.btnLoadContour);
             this.Controls.Add(this.txtManualPrice);
             this.Controls.Add(this.lblManualPricing);
@@ -442,9 +428,9 @@
             this.Controls.Add(this.lblDescription);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "OrderItemForm";
             this.Text = "Макет";
+            this.Load += new System.EventHandler(this.OrderItemForm_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OrderItemForm_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.errorCuttingLength)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorPaperCount)).EndInit();

@@ -113,5 +113,15 @@ namespace Stickers.WinForms.OrderForms
                 btnLoadContourFile.Enabled = true;
             }
         }
+
+        private void OrderItemContourForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

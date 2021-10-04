@@ -100,7 +100,7 @@
             this.btnOk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(82, 22);
-            this.btnOk.TabIndex = 0;
+            this.btnOk.TabIndex = 22;
             this.btnOk.Text = "ОК";
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.BtnOk_Click);
@@ -114,7 +114,7 @@
             this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(82, 22);
-            this.btnCancel.TabIndex = 1;
+            this.btnCancel.TabIndex = 23;
             this.btnCancel.Text = "Отмена";
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
@@ -136,7 +136,7 @@
             this.clientComboBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.clientComboBox.Name = "clientComboBox";
             this.clientComboBox.Size = new System.Drawing.Size(219, 23);
-            this.clientComboBox.TabIndex = 3;
+            this.clientComboBox.TabIndex = 0;
             this.clientComboBox.SelectedIndexChanged += new System.EventHandler(this.СlientComboBox_SelectedIndexChanged);
             this.clientComboBox.Validating += new System.ComponentModel.CancelEventHandler(this.ClientComboBox_Validating);
             // 
@@ -158,7 +158,7 @@
             this.approximalDeliveryDatePicker.Name = "approximalDeliveryDatePicker";
             this.approximalDeliveryDatePicker.ShowCheckBox = true;
             this.approximalDeliveryDatePicker.Size = new System.Drawing.Size(219, 23);
-            this.approximalDeliveryDatePicker.TabIndex = 5;
+            this.approximalDeliveryDatePicker.TabIndex = 2;
             // 
             // errorDeliveryCost
             // 
@@ -172,7 +172,7 @@
             this.btnAddClient.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAddClient.Name = "btnAddClient";
             this.btnAddClient.Size = new System.Drawing.Size(120, 22);
-            this.btnAddClient.TabIndex = 16;
+            this.btnAddClient.TabIndex = 1;
             this.btnAddClient.Text = "Создать клиента";
             this.btnAddClient.UseVisualStyleBackColor = true;
             this.btnAddClient.Click += new System.EventHandler(this.BtnAddClient_Click);
@@ -186,7 +186,7 @@
             this.urgencyCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.urgencyCheckBox.Name = "urgencyCheckBox";
             this.urgencyCheckBox.Size = new System.Drawing.Size(112, 19);
-            this.urgencyCheckBox.TabIndex = 18;
+            this.urgencyCheckBox.TabIndex = 3;
             this.urgencyCheckBox.Text = "Срочный заказ:";
             this.urgencyCheckBox.UseVisualStyleBackColor = true;
             this.urgencyCheckBox.CheckedChanged += new System.EventHandler(this.UrgencyCheckBox_CheckedChanged);
@@ -194,7 +194,7 @@
             // lblOrderItems
             // 
             this.lblOrderItems.AutoSize = true;
-            this.lblOrderItems.Location = new System.Drawing.Point(10, 212);
+            this.lblOrderItems.Location = new System.Drawing.Point(10, 290);
             this.lblOrderItems.Name = "lblOrderItems";
             this.lblOrderItems.Size = new System.Drawing.Size(96, 15);
             this.lblOrderItems.TabIndex = 24;
@@ -209,7 +209,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.orderItemsGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.orderItemsGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.orderItemsGrid.Location = new System.Drawing.Point(10, 229);
+            this.orderItemsGrid.Location = new System.Drawing.Point(10, 307);
             this.orderItemsGrid.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.orderItemsGrid.Name = "orderItemsGrid";
             this.orderItemsGrid.ReadOnly = true;
@@ -217,7 +217,7 @@
             this.orderItemsGrid.RowHeadersWidth = 51;
             this.orderItemsGrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.orderItemsGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.orderItemsGrid.Size = new System.Drawing.Size(1494, 362);
+            this.orderItemsGrid.Size = new System.Drawing.Size(1494, 284);
             this.orderItemsGrid.TabIndex = 25;
             this.orderItemsGrid.Text = "dataGridView1";
             // 
@@ -228,7 +228,7 @@
             this.btnAddOrderItem.Location = new System.Drawing.Point(1510, 192);
             this.btnAddOrderItem.Name = "btnAddOrderItem";
             this.btnAddOrderItem.Size = new System.Drawing.Size(82, 59);
-            this.btnAddOrderItem.TabIndex = 26;
+            this.btnAddOrderItem.TabIndex = 15;
             this.btnAddOrderItem.Text = "Добавить позицию в заказ";
             this.btnAddOrderItem.UseVisualStyleBackColor = true;
             this.btnAddOrderItem.Click += new System.EventHandler(this.BtnAddOrderItem_Click);
@@ -240,7 +240,7 @@
             this.btnDeleteOrderItem.Location = new System.Drawing.Point(1510, 316);
             this.btnDeleteOrderItem.Name = "btnDeleteOrderItem";
             this.btnDeleteOrderItem.Size = new System.Drawing.Size(82, 61);
-            this.btnDeleteOrderItem.TabIndex = 27;
+            this.btnDeleteOrderItem.TabIndex = 17;
             this.btnDeleteOrderItem.Text = "Убрать позицию из заказа";
             this.btnDeleteOrderItem.UseVisualStyleBackColor = true;
             this.btnDeleteOrderItem.Click += new System.EventHandler(this.BtnDeleteOrderItem_Click);
@@ -268,7 +268,7 @@
             this.txtDeliveryAddress.Location = new System.Drawing.Point(185, 60);
             this.txtDeliveryAddress.Name = "txtDeliveryAddress";
             this.txtDeliveryAddress.Size = new System.Drawing.Size(378, 23);
-            this.txtDeliveryAddress.TabIndex = 30;
+            this.txtDeliveryAddress.TabIndex = 4;
             this.txtDeliveryAddress.Validating += new System.ComponentModel.CancelEventHandler(this.TxtDeliveryAddress_Validating);
             // 
             // txtReceiverCredentials
@@ -276,7 +276,7 @@
             this.txtReceiverCredentials.Location = new System.Drawing.Point(185, 88);
             this.txtReceiverCredentials.Name = "txtReceiverCredentials";
             this.txtReceiverCredentials.Size = new System.Drawing.Size(378, 23);
-            this.txtReceiverCredentials.TabIndex = 31;
+            this.txtReceiverCredentials.TabIndex = 5;
             this.txtReceiverCredentials.Validating += new System.ComponentModel.CancelEventHandler(this.TxtReceiverCredentials_Validating);
             // 
             // txtPostIndex
@@ -284,7 +284,7 @@
             this.txtPostIndex.Location = new System.Drawing.Point(185, 117);
             this.txtPostIndex.Name = "txtPostIndex";
             this.txtPostIndex.Size = new System.Drawing.Size(378, 23);
-            this.txtPostIndex.TabIndex = 32;
+            this.txtPostIndex.TabIndex = 6;
             this.txtPostIndex.Validating += new System.ComponentModel.CancelEventHandler(this.TxtPostIndex_Validating);
             // 
             // lblPostIndex
@@ -327,7 +327,7 @@
             this.comboBoxPaymentMethod.Location = new System.Drawing.Point(185, 175);
             this.comboBoxPaymentMethod.Name = "comboBoxPaymentMethod";
             this.comboBoxPaymentMethod.Size = new System.Drawing.Size(219, 23);
-            this.comboBoxPaymentMethod.TabIndex = 35;
+            this.comboBoxPaymentMethod.TabIndex = 8;
             // 
             // deliveryTypeComboBox
             // 
@@ -336,7 +336,7 @@
             this.deliveryTypeComboBox.Location = new System.Drawing.Point(185, 146);
             this.deliveryTypeComboBox.Name = "deliveryTypeComboBox";
             this.deliveryTypeComboBox.Size = new System.Drawing.Size(219, 23);
-            this.deliveryTypeComboBox.TabIndex = 36;
+            this.deliveryTypeComboBox.TabIndex = 7;
             this.deliveryTypeComboBox.Validating += new System.ComponentModel.CancelEventHandler(this.DeliveryTypeComboBox_Validating);
             // 
             // lblDeliveryType
@@ -359,7 +359,7 @@
             this.btnСhangeSourceFiles.Location = new System.Drawing.Point(1510, 382);
             this.btnСhangeSourceFiles.Name = "btnСhangeSourceFiles";
             this.btnСhangeSourceFiles.Size = new System.Drawing.Size(82, 47);
-            this.btnСhangeSourceFiles.TabIndex = 38;
+            this.btnСhangeSourceFiles.TabIndex = 18;
             this.btnСhangeSourceFiles.Text = "Изменить исходники";
             this.btnСhangeSourceFiles.UseVisualStyleBackColor = true;
             this.btnСhangeSourceFiles.Click += new System.EventHandler(this.BtnСhangeSourceFiles_Click);
@@ -378,7 +378,7 @@
             this.txtComment.Location = new System.Drawing.Point(1134, 3);
             this.txtComment.Name = "txtComment";
             this.txtComment.Size = new System.Drawing.Size(312, 79);
-            this.txtComment.TabIndex = 41;
+            this.txtComment.TabIndex = 14;
             this.txtComment.Text = "";
             // 
             // lblStickersCost
@@ -441,7 +441,7 @@
             this.btnOpenContourFolder.Location = new System.Drawing.Point(1510, 489);
             this.btnOpenContourFolder.Name = "btnOpenContourFolder";
             this.btnOpenContourFolder.Size = new System.Drawing.Size(82, 44);
-            this.btnOpenContourFolder.TabIndex = 48;
+            this.btnOpenContourFolder.TabIndex = 20;
             this.btnOpenContourFolder.Text = "Открыть контуры";
             this.btnOpenContourFolder.UseVisualStyleBackColor = true;
             this.btnOpenContourFolder.Click += new System.EventHandler(this.BtnOpenContourFolder_Click);
@@ -452,7 +452,7 @@
             this.paymentCheckBox.Location = new System.Drawing.Point(582, 178);
             this.paymentCheckBox.Name = "paymentCheckBox";
             this.paymentCheckBox.Size = new System.Drawing.Size(66, 19);
-            this.paymentCheckBox.TabIndex = 49;
+            this.paymentCheckBox.TabIndex = 9;
             this.paymentCheckBox.Text = "Оплата";
             this.paymentCheckBox.UseVisualStyleBackColor = true;
             // 
@@ -462,7 +462,7 @@
             this.btnEditOrderItem.Location = new System.Drawing.Point(1510, 256);
             this.btnEditOrderItem.Name = "btnEditOrderItem";
             this.btnEditOrderItem.Size = new System.Drawing.Size(82, 53);
-            this.btnEditOrderItem.TabIndex = 50;
+            this.btnEditOrderItem.TabIndex = 16;
             this.btnEditOrderItem.Text = "Изменить позицию";
             this.btnEditOrderItem.UseVisualStyleBackColor = true;
             this.btnEditOrderItem.Click += new System.EventHandler(this.BtnEditOrderItem_Click);
@@ -479,7 +479,7 @@
             this.btnLoadContour.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLoadContour.Name = "btnLoadContour";
             this.btnLoadContour.Size = new System.Drawing.Size(82, 48);
-            this.btnLoadContour.TabIndex = 51;
+            this.btnLoadContour.TabIndex = 19;
             this.btnLoadContour.Text = "Загрузить контур";
             this.btnLoadContour.UseVisualStyleBackColor = true;
             this.btnLoadContour.Click += new System.EventHandler(this.BtnLoadContour_Click);
@@ -491,16 +491,15 @@
             this.btnOpenDialog.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOpenDialog.Name = "btnOpenDialog";
             this.btnOpenDialog.Size = new System.Drawing.Size(82, 57);
-            this.btnOpenDialog.TabIndex = 52;
+            this.btnOpenDialog.TabIndex = 21;
             this.btnOpenDialog.Text = "Открыть диалог с заказчиком";
             this.btnOpenDialog.UseVisualStyleBackColor = true;
             this.btnOpenDialog.Click += new System.EventHandler(this.BtnOpenDialog_Click);
             // 
             // lblOrderInsertInfo
             // 
-            this.lblOrderInsertInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblOrderInsertInfo.AutoSize = true;
-            this.lblOrderInsertInfo.Location = new System.Drawing.Point(1464, 5);
+            this.lblOrderInsertInfo.Location = new System.Drawing.Point(981, 91);
             this.lblOrderInsertInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOrderInsertInfo.Name = "lblOrderInsertInfo";
             this.lblOrderInsertInfo.Size = new System.Drawing.Size(81, 15);
@@ -509,9 +508,8 @@
             // 
             // lblOrderConfirmInfo
             // 
-            this.lblOrderConfirmInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblOrderConfirmInfo.AutoSize = true;
-            this.lblOrderConfirmInfo.Location = new System.Drawing.Point(1464, 35);
+            this.lblOrderConfirmInfo.Location = new System.Drawing.Point(981, 121);
             this.lblOrderConfirmInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOrderConfirmInfo.Name = "lblOrderConfirmInfo";
             this.lblOrderConfirmInfo.Size = new System.Drawing.Size(106, 15);
@@ -520,9 +518,8 @@
             // 
             // lblOrderDoneDate
             // 
-            this.lblOrderDoneDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblOrderDoneDate.AutoSize = true;
-            this.lblOrderDoneDate.Location = new System.Drawing.Point(1464, 63);
+            this.lblOrderDoneDate.Location = new System.Drawing.Point(981, 149);
             this.lblOrderDoneDate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOrderDoneDate.Name = "lblOrderDoneDate";
             this.lblOrderDoneDate.Size = new System.Drawing.Size(105, 15);
@@ -531,20 +528,18 @@
             // 
             // lblOrderTrackNumber
             // 
-            this.lblOrderTrackNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblOrderTrackNumber.AutoSize = true;
-            this.lblOrderTrackNumber.Location = new System.Drawing.Point(1464, 89);
+            this.lblOrderTrackNumber.Location = new System.Drawing.Point(981, 175);
             this.lblOrderTrackNumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOrderTrackNumber.Name = "lblOrderTrackNumber";
-            this.lblOrderTrackNumber.Size = new System.Drawing.Size(74, 15);
+            this.lblOrderTrackNumber.Size = new System.Drawing.Size(75, 15);
             this.lblOrderTrackNumber.TabIndex = 56;
             this.lblOrderTrackNumber.Text = "Трэк номер:";
             // 
             // lblPaymentCheckInfo
             // 
-            this.lblPaymentCheckInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPaymentCheckInfo.AutoSize = true;
-            this.lblPaymentCheckInfo.Location = new System.Drawing.Point(1464, 111);
+            this.lblPaymentCheckInfo.Location = new System.Drawing.Point(981, 197);
             this.lblPaymentCheckInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPaymentCheckInfo.Name = "lblPaymentCheckInfo";
             this.lblPaymentCheckInfo.Size = new System.Drawing.Size(106, 15);
@@ -553,9 +548,8 @@
             // 
             // lblDeliveryDate
             // 
-            this.lblDeliveryDate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDeliveryDate.AutoSize = true;
-            this.lblDeliveryDate.Location = new System.Drawing.Point(1464, 133);
+            this.lblDeliveryDate.Location = new System.Drawing.Point(981, 219);
             this.lblDeliveryDate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDeliveryDate.Name = "lblDeliveryDate";
             this.lblDeliveryDate.Size = new System.Drawing.Size(89, 15);
@@ -564,25 +558,25 @@
             // 
             // btnOpenVkGroupLink
             // 
-            this.btnOpenVkGroupLink.Location = new System.Drawing.Point(901, 147);
+            this.btnOpenVkGroupLink.Location = new System.Drawing.Point(185, 261);
             this.btnOpenVkGroupLink.Name = "btnOpenVkGroupLink";
             this.btnOpenVkGroupLink.Size = new System.Drawing.Size(151, 23);
-            this.btnOpenVkGroupLink.TabIndex = 79;
+            this.btnOpenVkGroupLink.TabIndex = 12;
             this.btnOpenVkGroupLink.Text = "Открыть группу";
             this.btnOpenVkGroupLink.UseVisualStyleBackColor = true;
             this.btnOpenVkGroupLink.Click += new System.EventHandler(this.btnOpenVkGroupLink_Click);
             // 
             // txtVkGroupName
             // 
-            this.txtVkGroupName.Location = new System.Drawing.Point(901, 121);
+            this.txtVkGroupName.Location = new System.Drawing.Point(185, 232);
             this.txtVkGroupName.Name = "txtVkGroupName";
-            this.txtVkGroupName.Size = new System.Drawing.Size(545, 23);
-            this.txtVkGroupName.TabIndex = 78;
+            this.txtVkGroupName.Size = new System.Drawing.Size(378, 23);
+            this.txtVkGroupName.TabIndex = 11;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(772, 124);
+            this.label3.Location = new System.Drawing.Point(10, 235);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(123, 15);
             this.label3.TabIndex = 77;
@@ -590,15 +584,15 @@
             // 
             // txtVkLink
             // 
-            this.txtVkLink.Location = new System.Drawing.Point(901, 90);
+            this.txtVkLink.Location = new System.Drawing.Point(185, 204);
             this.txtVkLink.Name = "txtVkLink";
-            this.txtVkLink.Size = new System.Drawing.Size(545, 23);
-            this.txtVkLink.TabIndex = 76;
+            this.txtVkLink.Size = new System.Drawing.Size(378, 23);
+            this.txtVkLink.TabIndex = 10;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(772, 93);
+            this.label2.Location = new System.Drawing.Point(10, 207);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 15);
             this.label2.TabIndex = 75;
@@ -609,7 +603,7 @@
             this.txtClientComment.Location = new System.Drawing.Point(721, 5);
             this.txtClientComment.Name = "txtClientComment";
             this.txtClientComment.Size = new System.Drawing.Size(254, 79);
-            this.txtClientComment.TabIndex = 74;
+            this.txtClientComment.TabIndex = 13;
             this.txtClientComment.Text = "";
             // 
             // label1

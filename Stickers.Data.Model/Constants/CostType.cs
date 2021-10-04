@@ -20,7 +20,7 @@ namespace Stickers.Data.Model.Constants
         MinimalPaperSquare = 6,
         [Description("Наценка за срочность")]
         UrgencyCost = 7,
-        //[Description("Цена краски, руб/м2")]
-        //PaintCost = 8,
+        [Description("Цена краски, руб/м2")]
+        PaintCost = 8,
     }
 }

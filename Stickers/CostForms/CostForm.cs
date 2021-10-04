@@ -50,6 +50,7 @@ namespace Stickers.WinForms.CostForms
                 errorPrice.SetError(txtPrice, "");
                 e.Cancel = false;
             }
+
         }
 
         private void InitializeCostTypeComboBox(string currentType = null)

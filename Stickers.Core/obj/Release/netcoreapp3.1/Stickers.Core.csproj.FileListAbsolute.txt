@@ -42,3 +42,17 @@ C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers.Core\obj\Release
 C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers.Core\obj\Release\netcoreapp3.1\Stickers.Core.csproj.CopyComplete
 C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers.Core\obj\Release\netcoreapp3.1\Stickers.Core.dll
 C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers.Core\obj\Release\netcoreapp3.1\Stickers.Core.pdb
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\bin\Release\netcoreapp3.1\Stickers.Core.deps.json
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\bin\Release\netcoreapp3.1\Stickers.Core.dll
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\bin\Release\netcoreapp3.1\Stickers.Core.pdb
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\bin\Release\netcoreapp3.1\Stickers.Data.dll
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\bin\Release\netcoreapp3.1\Stickers.Data.Model.dll
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\bin\Release\netcoreapp3.1\Stickers.Data.pdb
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\bin\Release\netcoreapp3.1\Stickers.Data.Model.pdb
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\obj\Release\netcoreapp3.1\Stickers.Core.csprojAssemblyReference.cache
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\obj\Release\netcoreapp3.1\Stickers.Core.AssemblyInfoInputs.cache
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\obj\Release\netcoreapp3.1\Stickers.Core.AssemblyInfo.cs
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\obj\Release\netcoreapp3.1\Stickers.Core.csproj.CoreCompileInputs.cache
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\obj\Release\netcoreapp3.1\Stickers.Core.csproj.CopyComplete
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\obj\Release\netcoreapp3.1\Stickers.Core.dll
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Core\obj\Release\netcoreapp3.1\Stickers.Core.pdb

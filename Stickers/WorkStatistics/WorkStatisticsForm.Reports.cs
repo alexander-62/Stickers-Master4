@@ -32,6 +32,9 @@ namespace Stickers.WinForms.WorkStatistics
             workReportsGrid.Columns.Add(ColumnUtility.CreateTableColumn("PlotteringLength", "Длина плоттерной резки"));
             workReportsGrid.Columns.Add(ColumnUtility.CreateTableColumn("UserName", "Имя работника"));
             workReportsGrid.Columns.Add(ColumnUtility.CreateTableColumn("RollId", "Номер рулона"));
+            workReportsGrid.Columns.Add(ColumnUtility.CreateTableColumn("SpentMaterial", "Потраченный материал, м2"));
+            workReportsGrid.Columns.Add(ColumnUtility.CreateTableColumn("CostMaterial", "Себестоимость материала, руб"));
+            workReportsGrid.Columns.Add(ColumnUtility.CreateTableColumn("PaintCost", "Стоимость краски, руб"));
 
             //workReportsGrid.Columns.Add(ColumnUtility.CreateTableColumn("", "Потраченный материал, м2"));
             //workReportsGrid.Columns.Add(ColumnUtility.CreateTableColumn("", "Себестоимость материала, руб"));

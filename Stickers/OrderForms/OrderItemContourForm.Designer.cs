@@ -89,6 +89,7 @@
             this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "Отмена";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnOk
             // 
@@ -127,6 +128,7 @@
             this.KeyPreview = true;
             this.Name = "OrderItemContourForm";
             this.Text = "Загрузить контур";
+            this.Load += new System.EventHandler(this.OrderItemContourForm_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.OrderItemContourForm_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.errorCuttingLength)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorLoadContour)).EndInit();

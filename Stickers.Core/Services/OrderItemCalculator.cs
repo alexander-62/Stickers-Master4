@@ -22,12 +22,13 @@ namespace Stickers.Core.Services
                 return orderItem.ItemCost;
             }
             
-            var costs = _costsService.GetCosts();
-            if (costs.Count != 8)//9
+            
+            var costs = _costsService.GetCosts();            
+            if (costs.Count != 9)
             {
                 throw new Exception("Заполните таблицу расценок.");
             }
-
+            
             var printCost = costs.Find(x => x.CostType == CostType.PrintCost).Price;
             var filmCost = _filmService.GetFilmById(orderItem.FilmId).Price;
             var cuttingCost = 0m;

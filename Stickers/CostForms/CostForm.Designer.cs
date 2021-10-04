@@ -59,10 +59,10 @@
             // 
             // txtPrice
             // 
-            this.txtPrice.Location = new System.Drawing.Point(102, 34);
+            this.txtPrice.Location = new System.Drawing.Point(141, 34);
             this.txtPrice.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(239, 23);
+            this.txtPrice.Size = new System.Drawing.Size(200, 23);
             this.txtPrice.TabIndex = 2;
             this.txtPrice.Validating += new System.ComponentModel.CancelEventHandler(this.TxtPrice_Validating);
             // 
@@ -71,11 +71,11 @@
             this.costTypeComboBox.CausesValidation = false;
             this.costTypeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.costTypeComboBox.FormattingEnabled = true;
-            this.costTypeComboBox.Location = new System.Drawing.Point(102, 7);
+            this.costTypeComboBox.Location = new System.Drawing.Point(141, 7);
             this.costTypeComboBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.costTypeComboBox.MaxDropDownItems = 10;
             this.costTypeComboBox.Name = "costTypeComboBox";
-            this.costTypeComboBox.Size = new System.Drawing.Size(239, 23);
+            this.costTypeComboBox.Size = new System.Drawing.Size(200, 23);
             this.costTypeComboBox.TabIndex = 3;
             // 
             // errorPrice
@@ -85,7 +85,7 @@
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(170, 67);
+            this.btnOk.Location = new System.Drawing.Point(170, 70);
             this.btnOk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(82, 22);
@@ -98,7 +98,7 @@
             // 
             this.btnCancel.CausesValidation = false;
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(259, 67);
+            this.btnCancel.Location = new System.Drawing.Point(259, 70);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(82, 22);
@@ -111,7 +111,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
-            this.ClientSize = new System.Drawing.Size(384, 103);
+            this.ClientSize = new System.Drawing.Size(356, 105);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.costTypeComboBox);

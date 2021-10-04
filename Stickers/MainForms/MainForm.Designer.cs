@@ -266,7 +266,7 @@
             this.lblOrderTrackNumber.Location = new System.Drawing.Point(1009, 93);
             this.lblOrderTrackNumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOrderTrackNumber.Name = "lblOrderTrackNumber";
-            this.lblOrderTrackNumber.Size = new System.Drawing.Size(74, 15);
+            this.lblOrderTrackNumber.Size = new System.Drawing.Size(75, 15);
             this.lblOrderTrackNumber.TabIndex = 62;
             this.lblOrderTrackNumber.Text = "Трэк номер:";
             // 
@@ -307,10 +307,10 @@
             // 
             this.orderUrgencyFilterCombobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.orderUrgencyFilterCombobox.FormattingEnabled = true;
-            this.orderUrgencyFilterCombobox.Location = new System.Drawing.Point(83, 111);
+            this.orderUrgencyFilterCombobox.Location = new System.Drawing.Point(118, 110);
             this.orderUrgencyFilterCombobox.Margin = new System.Windows.Forms.Padding(2);
             this.orderUrgencyFilterCombobox.Name = "orderUrgencyFilterCombobox";
-            this.orderUrgencyFilterCombobox.Size = new System.Drawing.Size(203, 23);
+            this.orderUrgencyFilterCombobox.Size = new System.Drawing.Size(236, 23);
             this.orderUrgencyFilterCombobox.TabIndex = 38;
             this.orderUrgencyFilterCombobox.SelectedIndexChanged += new System.EventHandler(this.FilterOrdersEvent);
             // 
@@ -326,10 +326,10 @@
             // 
             // txtOrderInsertedFilter
             // 
-            this.txtOrderInsertedFilter.Location = new System.Drawing.Point(82, 86);
+            this.txtOrderInsertedFilter.Location = new System.Drawing.Point(118, 86);
             this.txtOrderInsertedFilter.Margin = new System.Windows.Forms.Padding(2);
             this.txtOrderInsertedFilter.Name = "txtOrderInsertedFilter";
-            this.txtOrderInsertedFilter.Size = new System.Drawing.Size(241, 23);
+            this.txtOrderInsertedFilter.Size = new System.Drawing.Size(236, 23);
             this.txtOrderInsertedFilter.TabIndex = 36;
             this.txtOrderInsertedFilter.TextChanged += new System.EventHandler(this.FilterOrdersEvent);
             // 
@@ -345,7 +345,7 @@
             // 
             // txtOrdersOrderIdFilter
             // 
-            this.txtOrdersOrderIdFilter.Location = new System.Drawing.Point(97, 8);
+            this.txtOrdersOrderIdFilter.Location = new System.Drawing.Point(118, 7);
             this.txtOrdersOrderIdFilter.Margin = new System.Windows.Forms.Padding(2);
             this.txtOrdersOrderIdFilter.Name = "txtOrdersOrderIdFilter";
             this.txtOrdersOrderIdFilter.Size = new System.Drawing.Size(138, 23);
@@ -467,7 +467,7 @@
             // 
             // txtClientNameFilter
             // 
-            this.txtClientNameFilter.Location = new System.Drawing.Point(415, 86);
+            this.txtClientNameFilter.Location = new System.Drawing.Point(441, 85);
             this.txtClientNameFilter.Name = "txtClientNameFilter";
             this.txtClientNameFilter.Size = new System.Drawing.Size(194, 23);
             this.txtClientNameFilter.TabIndex = 22;
@@ -551,7 +551,7 @@
             // 
             this.paymentComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.paymentComboBox.FormattingEnabled = true;
-            this.paymentComboBox.Location = new System.Drawing.Point(382, 111);
+            this.paymentComboBox.Location = new System.Drawing.Point(455, 110);
             this.paymentComboBox.Name = "paymentComboBox";
             this.paymentComboBox.Size = new System.Drawing.Size(180, 23);
             this.paymentComboBox.TabIndex = 13;
@@ -560,7 +560,7 @@
             // lblPayment
             // 
             this.lblPayment.AutoSize = true;
-            this.lblPayment.Location = new System.Drawing.Point(326, 114);
+            this.lblPayment.Location = new System.Drawing.Point(360, 113);
             this.lblPayment.Name = "lblPayment";
             this.lblPayment.Size = new System.Drawing.Size(50, 15);
             this.lblPayment.TabIndex = 12;
@@ -578,7 +578,7 @@
             // lblClientName
             // 
             this.lblClientName.AutoSize = true;
-            this.lblClientName.Location = new System.Drawing.Point(326, 88);
+            this.lblClientName.Location = new System.Drawing.Point(360, 88);
             this.lblClientName.Name = "lblClientName";
             this.lblClientName.Size = new System.Drawing.Size(81, 15);
             this.lblClientName.TabIndex = 8;
@@ -1245,7 +1245,7 @@
             this.lblDeliveryTrackNumberFilter.AutoSize = true;
             this.lblDeliveryTrackNumberFilter.Location = new System.Drawing.Point(500, 10);
             this.lblDeliveryTrackNumberFilter.Name = "lblDeliveryTrackNumberFilter";
-            this.lblDeliveryTrackNumberFilter.Size = new System.Drawing.Size(76, 15);
+            this.lblDeliveryTrackNumberFilter.Size = new System.Drawing.Size(77, 15);
             this.lblDeliveryTrackNumberFilter.TabIndex = 7;
             this.lblDeliveryTrackNumberFilter.Text = "Трэк-номер:";
             // 
@@ -1558,7 +1558,7 @@
             this.lblCuttingType.AutoSize = true;
             this.lblCuttingType.Location = new System.Drawing.Point(526, 6);
             this.lblCuttingType.Name = "lblCuttingType";
-            this.lblCuttingType.Size = new System.Drawing.Size(64, 15);
+            this.lblCuttingType.Size = new System.Drawing.Size(65, 15);
             this.lblCuttingType.TabIndex = 4;
             this.lblCuttingType.Text = "Тип резки:";
             // 
@@ -1577,7 +1577,7 @@
             this.lblLamination.AutoSize = true;
             this.lblLamination.Location = new System.Drawing.Point(253, 6);
             this.lblLamination.Name = "lblLamination";
-            this.lblLamination.Size = new System.Drawing.Size(96, 15);
+            this.lblLamination.Size = new System.Drawing.Size(97, 15);
             this.lblLamination.TabIndex = 2;
             this.lblLamination.Text = "Тип ламинации:";
             // 
@@ -1586,7 +1586,7 @@
             this.lblFilm.AutoSize = true;
             this.lblFilm.Location = new System.Drawing.Point(13, 6);
             this.lblFilm.Name = "lblFilm";
-            this.lblFilm.Size = new System.Drawing.Size(73, 15);
+            this.lblFilm.Size = new System.Drawing.Size(74, 15);
             this.lblFilm.TabIndex = 1;
             this.lblFilm.Text = "Тип пленки:";
             // 

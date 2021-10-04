@@ -27,3 +27,12 @@ C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers.Data.Model\obj\R
 C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers.Data.Model\obj\Release\netcoreapp3.1\Stickers.Data.Model.csproj.CoreCompileInputs.cache
 C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers.Data.Model\obj\Release\netcoreapp3.1\Stickers.Data.Model.dll
 C:\Users\Home\Desktop\V3\Stickers-master-main\Stickers\Stickers.Data.Model\obj\Release\netcoreapp3.1\Stickers.Data.Model.pdb
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Data.Model\bin\Release\netcoreapp3.1\Stickers.Data.Model.deps.json
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Data.Model\bin\Release\netcoreapp3.1\Stickers.Data.Model.dll
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Data.Model\bin\Release\netcoreapp3.1\Stickers.Data.Model.pdb
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Data.Model\obj\Release\netcoreapp3.1\Stickers.Data.Model.csprojAssemblyReference.cache
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Data.Model\obj\Release\netcoreapp3.1\Stickers.Data.Model.AssemblyInfoInputs.cache
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Data.Model\obj\Release\netcoreapp3.1\Stickers.Data.Model.AssemblyInfo.cs
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Data.Model\obj\Release\netcoreapp3.1\Stickers.Data.Model.csproj.CoreCompileInputs.cache
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Data.Model\obj\Release\netcoreapp3.1\Stickers.Data.Model.dll
+J:\Фриланс\Фриланс\Free-lance.ru\Стикеры\Stickers.Data.Model\obj\Release\netcoreapp3.1\Stickers.Data.Model.pdb

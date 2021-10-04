@@ -29,6 +29,9 @@ namespace Stickers.Core.Mappers
                 Date = report.Date,
                 UserName = report.User.Name,
                 RollId = report.RollId,
+                SpentMaterial = report.SpentMaterial,
+                CostMaterial = report.CostMaterial,
+                PaintCost = report.PaintCost,
                 OrderItemView = report.OrderItem == null ? null : _orderItemMapper.Map(report.OrderItem),
             };
         }

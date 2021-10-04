@@ -350,5 +350,10 @@ namespace Stickers.WinForms.OrderForms
                 MessageBox.Show("Выберите тип резки.");
             }
         }
+
+        private void OrderItemForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

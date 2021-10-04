@@ -48,6 +48,7 @@ namespace Stickers.Core.Services
             DeleteOrderItemFilesFromFolder(contourFolder, orderItemName);
             var fileName = Path.GetFileName(contourFile);
             var newFileName = orderItemName + " " + fileName;
+            if (fileName != null)
             File.Copy(contourFile, Path.Combine(contourFolder, newFileName), true);
         }
 

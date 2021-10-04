@@ -18,6 +18,7 @@ namespace Stickers.WinForms.MainForms
         private List<OrderItemView> _filteredOrderItems;
         private List<Film> _films;
 
+
         private void CreateProductionTable(bool flag = false)
         {
             if (flag)
@@ -335,7 +336,7 @@ namespace Stickers.WinForms.MainForms
                             OrderItem orderItem = _orderItemService.GetOrderItemById(pair.Key);
                             var orderItemView = _orderItems.FirstOrDefault(x => x.Id == pair.Key);
                             CheckDonePapers(orderItem, workType, pair.Value);
-                            CreateWorkReport(orderItem, pair.Value, workType, form.Roll);
+                            CreateWorkReport(orderItem, pair.Value, workType, form.Roll, orderItems, form.UsedMeters, form.DoneLists);
 
                             if (workType == WorkType.Printing && orderItem.Status == OrderItemStatus.ReadyForProduction)
                             {
@@ -399,7 +400,7 @@ namespace Stickers.WinForms.MainForms
             }
         }
 
-        private void CreateWorkReport(OrderItem item, int paperCount, WorkType workType, Roll roll)
+        private void CreateWorkReport(OrderItem item, int paperCount, WorkType workType, Roll roll, List<OrderItem> items, decimal UsedMeters, List<KeyValuePair<int, int>> DoneLists)
         {
             var report = new WorkReport
             {
@@ -409,7 +410,7 @@ namespace Stickers.WinForms.MainForms
                 PaperParameters = _paperParametersService.GetPaperParametersDescription(item.PaperLength, item.PaperWidth),
                 UserId = _currentUser.Id,
                 WorkType = workType,
-                Date = DateTime.Now
+                Date = DateTime.Now                
             };
             if (workType == WorkType.Printing || workType == WorkType.Lamination)
             {
@@ -419,6 +420,39 @@ namespace Stickers.WinForms.MainForms
             {
                 report.PlotteringLength = item.CuttingLength * paperCount;
             }
+
+            //--------------------------
+            if (workType == WorkType.Printing || workType == WorkType.Lamination)
+            {
+                decimal sumSquare = 0;
+                foreach (var oi in items)
+                {
+                    foreach (var pair in DoneLists)
+                    {
+                        if (oi.Id == pair.Key)
+                        {
+                            sumSquare += pair.Value * (oi.PaperLength / 1000) * (oi.PaperWidth / 1000);
+                            //MessageBox.Show("==" + pair.Value.ToString() + " * (" + oi.PaperLength.ToString() + " / 1000) * (" + oi.PaperWidth.ToString() + " / 1000);");
+                        }
+                    }
+                }
+
+                //--------------Потраченный материал, м2
+                //MessageBox.Show("("+UsedMeters.ToString() + "*"+ roll.Width.ToString() + "*(" +  paperCount.ToString()+" * (" +item.PaperWidth.ToString()+" / 1000) * ("+item.PaperLength.ToString() + " / 1000))) / " +sumSquare.ToString()+")");
+                report.SpentMaterial = (UsedMeters * roll.Width * (paperCount * (item.PaperWidth / 1000) * (item.PaperLength / 1000))) / sumSquare;
+
+                //-----------Себестоимость материала, руб
+                report.CostMaterial = report.SpentMaterial * roll.PurchasePrice;
+
+                if (workType != WorkType.Lamination)
+                {
+                    //-----------Стоимость краски, руб
+                    var costs = _costsService.GetCosts();
+                    var paintCost = costs.Find(x => x.CostType == CostType.PaintCost).Price;
+                    report.PaintCost = report.SpentMaterial * paintCost;
+                }
+            }
+
             _workReportService.AddReport(report);
         }
 

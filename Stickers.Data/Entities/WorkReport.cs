@@ -18,5 +18,9 @@ namespace Stickers.Data.Entities
         public virtual User User { get; set; }
         public virtual OrderItem OrderItem { get; set; }
         public virtual Roll Roll { get; set; }
+
+        public decimal? SpentMaterial { get; set; }
+        public decimal? CostMaterial { get; set; }
+        public decimal? PaintCost { get; set; }
     }
 }

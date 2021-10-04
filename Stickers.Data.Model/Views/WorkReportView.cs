@@ -15,5 +15,9 @@ namespace Stickers.Data.Model.Views
         public string OrderItemName { get; set; }
         public int? RollId { get; set; }
         public OrderItemView OrderItemView { get; set; }
+
+        public decimal? SpentMaterial { get; set; }
+        public decimal? CostMaterial { get; set; }
+        public decimal? PaintCost { get; set; }
     }
 }
