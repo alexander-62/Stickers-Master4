@@ -7278,28 +7278,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC1\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\avkho\\.nuget\\packages\\": {},
+    "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers\\Stickers.WinForms.csproj",
+      "projectUniqueName": "D:\\YandexDisk\\00_Стикеры учет исходники\\Stickers\\Stickers-Master3\\Stickers\\Stickers.WinForms.csproj",
       "projectName": "Stickers.WinForms",
-      "projectPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers\\Stickers.WinForms.csproj",
-      "packagesPath": "C:\\Users\\PC1\\.nuget\\packages\\",
-      "outputPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers\\obj\\",
+      "projectPath": "D:\\YandexDisk\\00_Стикеры учет исходники\\Stickers\\Stickers-Master3\\Stickers\\Stickers.WinForms.csproj",
+      "packagesPath": "C:\\Users\\avkho\\.nuget\\packages\\",
+      "outputPath": "D:\\YandexDisk\\00_Стикеры учет исходники\\Stickers\\Stickers-Master3\\Stickers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\PC1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\avkho\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -7312,11 +7309,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Core\\Stickers.Core.csproj": {
-              "projectPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Core\\Stickers.Core.csproj"
+            "D:\\YandexDisk\\00_Стикеры учет исходники\\Stickers\\Stickers-Master3\\Stickers.Core\\Stickers.Core.csproj": {
+              "projectPath": "D:\\YandexDisk\\00_Стикеры учет исходники\\Stickers\\Stickers-Master3\\Stickers.Core\\Stickers.Core.csproj"
             },
-            "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data\\Stickers.Data.csproj": {
-              "projectPath": "J:\\Фриланс\\Фриланс\\Free-lance.ru\\Стикеры\\Stickers.Data\\Stickers.Data.csproj"
+            "D:\\YandexDisk\\00_Стикеры учет исходники\\Stickers\\Stickers-Master3\\Stickers.Data\\Stickers.Data.csproj": {
+              "projectPath": "D:\\YandexDisk\\00_Стикеры учет исходники\\Stickers\\Stickers-Master3\\Stickers.Data\\Stickers.Data.csproj"
             }
           }
         }
@@ -7348,7 +7345,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
